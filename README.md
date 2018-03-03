@@ -1,5 +1,8 @@
 # Library-file
-把文件放入下面目录即可
+
 ```
-cd /usr/lib/
+git clone https://github.com/rice-mouse/Library-file.git temp
+rm -rf temp/README.md
+mv temp/*.* /usr/lib/
+rm -rf temp
 ```
